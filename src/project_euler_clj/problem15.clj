@@ -29,3 +29,5 @@
 ; with binom thingy
 (defn problem15* [dim]
 	(binom (* 2 dim) dim))
+
+;;result-handler (fn [stmt] (do (prn "BLABLA") (map #(do (prn %1) (into {} %1)) (resultset-seq (.getObject stmt outpar)) )))]

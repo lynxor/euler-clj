@@ -1,9 +1,7 @@
 (ns project-euler-clj.core)
-(use 'project-euler-clj.problem18_67)
+(use 'project-euler-clj.problem23)
 
-(defn -main
-  "I don't do a whole lot."
-  [& args]
-  	(println "hello"))
+(defn -main [& args]
+  	(problem23))
 
 (defn bla [] (println "BLA"))
